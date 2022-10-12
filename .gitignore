@@ -1,0 +1,30 @@
+# 
+# Project files from other tools
+#
+.coverage
+.nose-stopwatch-times
+.vagrant
+#
+# Side-effects of development
+#
+coverage/
+.pytest_cache/
+.idea/
+
+fred.*
+*.log
+*~
+.*.sw[op]
+*.retry
+#
+# Side-effects of Python
+#
+.venv/
+venv/
+__pycache__/
+.venv
+
+*.egg-info
+*.pyc
+*.pyo
+.env
